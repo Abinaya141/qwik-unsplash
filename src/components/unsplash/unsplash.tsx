@@ -14,7 +14,7 @@ export const Unsplash = component$(() => {
 
     // Function to fetch images from Unsplash API
     const fetchImages = $(async () => {
-        validationError.value = null; // Clear previous validation errors
+        validationError.value = null; 
 
         // Validate the search term using Valibot schema
         try {
@@ -26,7 +26,7 @@ export const Unsplash = component$(() => {
                 validationError.value = 'An unexpected validation error occurred.';
                 console.error('Validation failed unexpectedly:', error);
             }
-            images.value = []; // Clear images if validation fails
+            images.value = []; 
             return;
         }
 
@@ -136,8 +136,8 @@ export const Unsplash = component$(() => {
                 </div>
             </div>
 
-            {/* RIGHT SECTION: Unsplash API Documentation - Black and White Professional Theme */}
-            {/* Background color set to a very light gray (almost white) to maintain monochrome aesthetic */}
+            {/* RIGHT SECTION: Unsplash API Documentation*/}
+
             <div class="w-full lg:w-1/2 p-6 md:p-8 overflow-y-auto space-y-8 bg-gray-50 border-t lg:border-t-0 border-gray-200">
                 <h2 class="text-3xl md:text-4xl font-bold border-b pb-4 text-gray-800">Unsplash API Documentation</h2>
 
