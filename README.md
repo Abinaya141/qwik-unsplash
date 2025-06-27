@@ -97,11 +97,6 @@ npm run build
 3. Browse through a dynamic grid of Unsplash images.  
 
 
-##  Live Demo  :
-> _Deployment in progress..._  
-> The live version will be hosted soon via **Vercel** or **Netlify**.  
-
-
 ## Acknowledgements  :
 - **Qwik** – For redefining performance standards in web development.  
 - **Tailwind CSS** – For elegant and rapid UI development.  
